@@ -268,14 +268,15 @@ const UpcomingClasses: FC = () => {
         ))}
       </div>
       {/** pagination component */}
-      <Suspense fallback={<div>Loading...</div>}>
-        <div className="flex justify-center py-4">
+
+      <div className="flex justify-center py-4">
+        <Suspense fallback={<div>Loading...</div>}>
           <PaginationControls
             hasNextPage={indexOfLastItem < filteredTeachers.length}
             hasPrevPage={indexOfFirstItem > 0}
           />
-        </div>
-      </Suspense>
+        </Suspense>
+      </div>
     </div>
   );
 };
