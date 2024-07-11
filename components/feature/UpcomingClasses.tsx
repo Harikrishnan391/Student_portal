@@ -20,7 +20,7 @@ import {
 } from "@/components/ui/dialog";
 
 import PaginationControls from "./PaginationControls";
-import { useState } from "react";
+import { useState, FC, Suspense } from "react";
 import { Button } from "../ui/button";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { format, isPast, parseISO } from "date-fns";
@@ -29,7 +29,7 @@ import CountdownTimer from "./CountdownTimer";
 import { SquareArrowOutUpRight } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 
-const UpcomingClasses = () => {
+const UpcomingClasses: FC = () => {
   const [activeTimers, setActiveTimers] = useState<number[]>([]);
   const [showBookedOnly, setShowBookedOnly] = useState(false);
   const [teachers, setTeachers] = useState(Teachers);
@@ -267,13 +267,15 @@ const UpcomingClasses = () => {
           </div>
         ))}
       </div>
-{/** pagination component */}
-      <div className="flex justify-center py-4">
-        <PaginationControls
-          hasNextPage={indexOfLastItem < filteredTeachers.length}
-          hasPrevPage={indexOfFirstItem > 0}
-        />
-      </div>
+      {/** pagination component */}
+      <Suspense fallback={<div>Loading...</div>}>
+        <div className="flex justify-center py-4">
+          <PaginationControls
+            hasNextPage={indexOfLastItem < filteredTeachers.length}
+            hasPrevPage={indexOfFirstItem > 0}
+          />
+        </div>
+      </Suspense>
     </div>
   );
 };
