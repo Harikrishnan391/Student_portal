@@ -17,6 +17,7 @@ import {
   LogOut,
   Moon,
   Sun,
+  BookOpenText
 } from "lucide-react";
 import Link from "next/link";
 
@@ -44,7 +45,7 @@ export default function Dashboard() {
         <div className="flex h-full max-h-screen flex-col gap-2">
           <div className="flex h-14 items-center  px-4 lg:h-[60px] lg:px-6">
             <Link href="/" className="flex items-center gap-2 font-semibold">
-              <Package2 className="h-6 w-6" />
+            <BookOpenText className="h-6 w-6" />
               <span className="">Online Learn</span>
             </Link>
             <Button variant="outline" size="icon" className="ml-auto h-8 w-8">

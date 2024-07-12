@@ -127,7 +127,7 @@ const UpcomingClasses: FC = () => {
                         {user.name}
                       </span>
                       <span className="block text-gray-500 text-sm">
-                        Additional
+                        {user.description}
                       </span>
                     </div>
                   </div>
@@ -209,7 +209,7 @@ const UpcomingClasses: FC = () => {
                     {user.name}
                   </span>
                   <span className="block text-gray-500 text-sm">
-                    Additional
+                    {user.description}
                   </span>
                 </div>
               </div>

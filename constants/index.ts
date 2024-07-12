@@ -4,8 +4,9 @@ export const Teachers: teachersDataTypes[] = [
     classname: "UI/UX Designing",
     name: "SuriyaR",
     date: "2024-07-11T13:00:00",
-    description: "Foundations of UI/UX design.",
-    link: "https://i.pravatar.cc/150?u=a042581f4e29026702d",
+    description: "Foundations of UI/UX.",
+
+    link: "https://i.pravatar.cc/150?u=a04258a2462d826712d",
     status: "not started",
   },
   {
@@ -20,8 +21,8 @@ export const Teachers: teachersDataTypes[] = [
     classname: "Design Hierarchy",
     name: "Lesile Alexander",
     date: "2024-07-12T12:00:00",
-    description: "Understanding design hierarchy.",
-    link: "https://i.pravatar.cc/150?u=a04258a2462d826712d",
+    description: "Understanding  hierarchy.",
+    link: "https://i.pravatar.cc/150?u=a042581f4e29026702d",
     status: "booked",
   },
   {
