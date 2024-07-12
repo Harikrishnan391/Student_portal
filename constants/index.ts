@@ -3,7 +3,7 @@ export const Teachers: teachersDataTypes[] = [
   {
     classname: "UI/UX Designing",
     name: "SuriyaR",
-    date: "2024-07-11T13:00:00",
+    date: "2024-07-12T13:00:00",
     description: "Foundations of UI/UX.",
 
     link: "https://i.pravatar.cc/150?u=a04258a2462d826712d",
@@ -12,7 +12,7 @@ export const Teachers: teachersDataTypes[] = [
   {
     classname: "Graphic Designing",
     name: "Priya Sweety",
-    date: "2024-07-11T11:00:00",
+    date: "2024-07-13T11:00:00",
     description: "Basics of graphic design.",
     link: "https://i.pravatar.cc/150?u=a04258114e29026702d",
     status: "live",
@@ -20,7 +20,7 @@ export const Teachers: teachersDataTypes[] = [
   {
     classname: "Design Hierarchy",
     name: "Lesile Alexander",
-    date: "2024-07-12T12:00:00",
+    date: "2024-07-13T12:00:00",
     description: "Understanding  hierarchy.",
     link: "https://i.pravatar.cc/150?u=a042581f4e29026702d",
     status: "booked",
@@ -28,7 +28,7 @@ export const Teachers: teachersDataTypes[] = [
   {
     classname: "Graphic Designing",
     name: "Jerome Bell",
-    date: "2024-07-12T13:00:00",
+    date: "2024-07-13T13:00:00",
     description: "Intermediate graphic design.",
     link: "https://i.pravatar.cc/150?u=a042581f4e29026024d",
     status: "live",
@@ -36,7 +36,7 @@ export const Teachers: teachersDataTypes[] = [
   {
     classname: "DevOps Engineer",
     name: "Eleanor Pena",
-    date: "2024-07-12T14:00:00",
+    date: "2024-07-14T14:00:00",
     description: "Introduction to DevOps.",
     link: "https://i.pravatar.cc/150?u=a042581f4e29026024d",
     status: "not started",
@@ -44,7 +44,7 @@ export const Teachers: teachersDataTypes[] = [
   {
     classname: "Data Scientist",
     name: "Guy Hawkins",
-    date: "2024-07-12T15:00:00",
+    date: "2024-07-15T15:00:00",
     description: "Foundations of data science.",
     link: "https://i.pravatar.cc/150?u=a04258114e29026302d",
     status: "not started",
@@ -52,7 +52,7 @@ export const Teachers: teachersDataTypes[] = [
   {
     classname: "Machine Learning Engineer",
     name: "AmitT",
-    date: "2024-07-12T16:00:00",
+    date: "2024-07-13T16:00:00",
     description: "Basics of machine learning.",
     link: "https://i.pravatar.cc/150?u=a04258114e29026302d",
     status: "live",
@@ -60,7 +60,7 @@ export const Teachers: teachersDataTypes[] = [
   {
     classname: "Product Manager",
     name: "PriyaN",
-    date: "2024-07-12T17:00:00",
+    date: "2024-07-14T17:00:00",
     description: "Product management essentials.",
     link: "https://i.pravatar.cc/150?u=a04258114e29026302d",
     status: "not started",
@@ -68,7 +68,7 @@ export const Teachers: teachersDataTypes[] = [
   {
     classname: "QA Engineer",
     name: "SnehaD",
-    date: "2024-07-12T18:00:00",
+    date: "2024-07-14T18:00:00",
     description: "Quality assurance basics.",
     link: "https://i.pravatar.cc/150?u=a04258114e29026302d",
     status: "not started",
@@ -76,7 +76,7 @@ export const Teachers: teachersDataTypes[] = [
   {
     classname: "System Analyst",
     name: "ArjunB",
-    date: "2024-07-12T19:00:00",
+    date: "2024-07-13T19:00:00",
     description: "Introduction to system analysis.",
     link: "https://i.pravatar.cc/150?u=a04258114e29026302d",
     status: "live",

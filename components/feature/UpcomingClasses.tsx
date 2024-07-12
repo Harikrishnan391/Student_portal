@@ -30,6 +30,7 @@ import { SquareArrowOutUpRight } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 
 const UpcomingClasses: FC = () => {
+  
   const [activeTimers, setActiveTimers] = useState<number[]>([]);
   const [showBookedOnly, setShowBookedOnly] = useState(false);
   const [teachers, setTeachers] = useState(Teachers);
