@@ -1,4 +1,5 @@
-![Screenshot from 2024-07-12 05-22-25](https://github.com/user-attachments/assets/91df79be-de47-4d06-8610-5f82a8f31e79)
+![Screenshot from 2024-07-12 06-29-29](https://github.com/user-attachments/assets/a45937d7-46ba-43b2-9030-e374f5ea57aa)
+
 
 # Student-Dashboard
 
